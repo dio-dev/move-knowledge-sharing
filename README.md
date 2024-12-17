@@ -191,32 +191,7 @@ In aptos we have randomization of verifiers nodes. Few nodes should verify trans
 
 ---
 
-## 6. DAG-Based Architecture
-
-### Traditional Blockchain
-- Linear sequence of blocks
-- Sequential transaction processing
-- Limited throughput
-
-### DAG Structure (Used in Sui)
-- Multiple parallel paths
-- Transactions can process simultaneously
-- Only related transactions need ordering
-
-### Benefits
-- Higher throughput
-- Lower latency
-- Better scalability
-- Independent transaction finality
-
-### Challenges
-- More complex implementation
-- Sophisticated state management
-- Advanced consensus requirements
-
----
-
-## 7. Technical Deep Dives
+## 6. Technical Deep Dives
 
 ### Aptos Implementation Details
 - Rotating validator scheme
@@ -230,6 +205,7 @@ In aptos we have randomization of verifiers nodes. Few nodes should verify trans
 - Split and merge operations
 - Direct ownership model
 - Parallel processing
+- DAG Structure 
 - Causal transaction ordering
 
 ### Account Models
@@ -261,7 +237,7 @@ In aptos we have randomization of verifiers nodes. Few nodes should verify trans
   
 ---
 
-## 8. Movement
+## 7. Movement
 ![architecture_movement-bcaa30613d508744d2f3318a35e39a6a (1)](https://github.com/user-attachments/assets/99a5b28f-9b49-4c51-84c3-8e8e6719e9ad)
 
 
